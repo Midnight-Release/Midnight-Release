@@ -1,4 +1,4 @@
-# Midnght Release Web App
+# Midnight Release Web App
 
 This is a Spring Boot app running on Maven.
 
