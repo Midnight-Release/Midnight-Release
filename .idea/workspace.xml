@@ -5,18 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2e7e9cc-979b-492a-abd2-57fb5a371be9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/MR/MidnightRelease/data/Profile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/MR/MidnightRelease/data/ProfileRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/env.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/main-profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/MR/MidnightRelease/data/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/MR/MidnightRelease/data/LoginRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/MR/MidnightRelease/services/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/MR/MidnightRelease/web/CustomErrorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/MR/MidnightRelease/web/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/profiles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Midnight-Release.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Midnight-Release.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MR/MidnightRelease/MidnightReleaseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MR/MidnightRelease/MidnightReleaseApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MR/MidnightRelease/data/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MR/MidnightRelease/data/Profile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MR/MidnightRelease/services/ProfileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MR/MidnightRelease/services/ProfileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MR/MidnightRelease/web/ProfileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MR/MidnightRelease/webservice/WebServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MR/MidnightRelease/webservice/WebServiceController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/MR/MidnightRelease/services/ProfileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/MR/MidnightRelease/services/ProfileService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/MR/MidnightRelease/web/ProfileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/MR/MidnightRelease/web/ProfileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home-screen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/create-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MR/MidnightRelease/MidnightReleaseApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MR/MidnightRelease/services/ProfileService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MR/MidnightRelease/util/AppStartupEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MR/MidnightRelease/web/ProfileController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MR/MidnightRelease/webservice/WebServiceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/home-screen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/MR/MidnightRelease/MidnightReleaseApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,14 +49,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="2HVIrIIeQcuwrHfu0IEeMPsUDYm" />
   <component name="ProjectViewState">
@@ -49,6 +80,12 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.MR.MidnightRelease.services" />
+      <recent name="com.MR.MidnightRelease.data" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="MidnightReleaseApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">

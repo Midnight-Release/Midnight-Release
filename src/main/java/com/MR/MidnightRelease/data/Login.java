@@ -3,10 +3,8 @@ package com.MR.MidnightRelease.data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.util.Date;
-
-@Document("profile")
-public class Profile {
+@Document("login")
+public class Login {
 
     @Id
     private String username;
