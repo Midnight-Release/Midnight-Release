@@ -1,5 +1,7 @@
 package com.MR.MidnightRelease.services;
 
+import com.MR.MidnightRelease.data.Login;
+import com.MR.MidnightRelease.data.LoginRepository;
 import com.MR.MidnightRelease.data.Profile;
 import com.MR.MidnightRelease.data.ProfileRepository;
 import org.slf4j.Logger;
@@ -9,22 +11,22 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class ProfileService {
+public class LoginService {
 
-    Logger logger = LoggerFactory.getLogger(ProfileService.class);
+    Logger logger = LoggerFactory.getLogger(LoginService.class);
 
-    ProfileRepository profileRepository;
+    LoginRepository loginRepository;
 
-    public ProfileService(ProfileRepository profileRepository){
-        this.profileRepository = profileRepository;
+    public LoginService(LoginRepository loginRepository){
+        this.loginRepository = loginRepository;
     }
 
-    public Profile getProfile(String username){
-        return profileRepository.findItemByUsername(username);
+    public Login getLogin(String username){
+        return loginRepository.findItemByUsername(username);
     }
 
     public List<Profile> getProfiles(){
-        return profileRepository.findAll();
+        return loginRepository.findAll();
     }
 
     public void addProfile(Profile profile){
@@ -32,7 +34,7 @@ public class ProfileService {
             logger.error("Profile is null.");
             throw new RuntimeException("Profile cannot be null.");
         }
-        this.profileRepository.save(profile);
+        this.loginRepository.save(profile);
     }
 
 }
